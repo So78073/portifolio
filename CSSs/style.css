@@ -1,0 +1,175 @@
+@font-face {
+    font-family: myFont;
+    src: url(/Caveat-VariableFont_wght.ttf);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: rgb(0, 0, 0);
+    font-family: myFont;
+}
+
+.About {
+    display: flex;
+    height: 900px;
+    width: 100%;
+    background: rgba(255, 255, 0, 0);
+}
+
+.h1 {
+    text-align: center;
+    margin-top: 100px;
+    color: aliceblue;
+    font-size: 100px;
+}
+
+.h2 {
+    text-align: center;
+    color: aliceblue;
+    font-size: 75px;
+}
+
+.aboutMe_mensege {
+    font-size: 50px;
+}
+
+.Ab_clss1 {
+    display: flex;
+    background: rgba(255, 255, 255, 0);
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    margin-left: 15px;
+    flex-direction: column;
+    color: aliceblue;
+    align-items: center;
+    text-align: center;
+}
+
+.imgAboutMe {
+    width: 25%;
+    height: 25%;
+}
+
+.Ab_clss2 {
+    display: flex;
+    background: rgba(21, 255, 0, 0);
+    width: 100%;
+    height: 100%;
+}
+
+
+/*projectis*/
+
+.Projects {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.proj {
+    width: 100%;
+    height: 600px;
+    background: rgba(255, 0, 0, 0)(255, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 25px;
+}
+
+.BT_project {
+    width: 400px;
+    height: 95%;
+    background: yellow;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.BT_projectMID {
+    width: 400px;
+    height: 100%;
+    background: yellow;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+
+/*skills*/
+
+.conteinerSkills {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 150px;
+}
+
+.card {
+    width: 128px;
+    height: 128px;
+    border-radius: 20px;
+    background: yellow;
+    margin-left: 5px;
+}
+
+
+/*end*/
+
+.end {
+    width: 100%;
+    height: 200px;
+    background: rgb(78, 78, 78);
+}
+
+@media only screen and (max-width: 800px) {
+    .proj {
+        width: 100%;
+        height: 600px;
+        background: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+    .BT_project {
+        width: 90%;
+        height: 95%;
+        background: yellow;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .BT_projectMID {
+        width: 90%;
+        height: 100%;
+        background: yellow;
+        border-radius: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .About {
+        display: flex;
+        height: 100%;
+        background: rgb(0, 0, 0);
+        flex-direction: column-reverse;
+    }
+    /*CLASS CONFIG ----- >*/
+    .Ab_clss1 {
+        display: flex;
+        background: rgb(0, 81, 255);
+        width: 100%;
+        height: 300px;
+    }
+    .Ab_clss2 {
+        display: flex;
+        background: rgb(30, 255, 0);
+        width: 100%;
+        height: 300px;
+    }
+}
